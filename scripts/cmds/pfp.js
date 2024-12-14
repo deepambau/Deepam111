@@ -1,11 +1,11 @@
-module.exports = {
+.cmd install profile.js module.exports = {
   config: {
     name: "profile",
-    aliases: ["pp"],
+    aliases: ["pfp"],
     version: "1.1",
-    author: "NIB | No prefix by ArYan",
+    author: "NIB",
     countDown: 5,
-    role: 0,
+    role: 2,
     shortDescription: "PROFILE image",
     longDescription: "PROFILE image",
     category: "image",
@@ -39,4 +39,4 @@ module.exports = {
       attachment: await global.utils.getStreamFromURL(avt)
   })
   }
-}
+};
