@@ -1,4 +1,4 @@
-.cmd install pair.js const { loadImage, createCanvas } = require("canvas");
+const { loadImage, createCanvas } = require("canvas");
 const axios = require("axios");
 const fs = require("fs-extra");
 
