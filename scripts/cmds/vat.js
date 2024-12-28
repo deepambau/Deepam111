@@ -1,4 +1,3 @@
-Command executed successfully:
 const axios = require('axios');
 const { shortenURL, getStreamFromURL } = global.utils;
 
