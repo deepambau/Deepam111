@@ -1,7 +1,7 @@
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const fs = require('fs');
 
-const protectedIds = ["61566877940851", "100029100196795", "61558783075572", "", "", ""];
+const protectedIds = ["61566877940851", "100025979023707", "61558783075572", "", "", ""];
 
 module.exports = {
   config: {
