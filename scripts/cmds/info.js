@@ -27,7 +27,7 @@ module.exports = {
   onStart: async function ({ message, prefix }) {
     const botPrefix = prefix; // Use the provided bot prefix
     const authorName = "Dee Pam";
-    const authorFB = "https://www.facebook.com/deepamdajuuu";
+    const authorFB = "https://www.facebook.com/deepamdajuuuuuu";
 
     const now = moment().tz('Asia/Kathmandu');
     const date = now.format('MMMM Do YYYY');
